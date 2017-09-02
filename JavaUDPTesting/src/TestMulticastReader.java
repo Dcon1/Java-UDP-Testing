@@ -19,7 +19,7 @@ public class TestMulticastReader {
             DatagramPacket receivePacket = new DatagramPacket(messageBuffer, messageBuffer.length);
             //Blocking statement (will be open and wait for recieved packet.
             socket.receive(receivePacket);
-            String userMessage = new String(messageBuffer);
+            String userMessage = new String(messageBuffer).trim();
 
             if (userMessage.equals("bye")) {
                 break;
