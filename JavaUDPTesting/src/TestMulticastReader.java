@@ -5,7 +5,6 @@ import java.net.MulticastSocket;
 /*
 * Created by danny on 9/2/2017.
 * This is a basic UDP message sent from a sender to a reciever
-* broken parts to fix in reader - does not close with bye
 */
 public class TestMulticastReader {
 
